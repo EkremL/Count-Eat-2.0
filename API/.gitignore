@@ -151,5 +151,5 @@ appsettings.Local.json
 
 # Seed data (private)
 Seed/ingredientson.json
-
+Seed/recipes.json
 .vscode/
