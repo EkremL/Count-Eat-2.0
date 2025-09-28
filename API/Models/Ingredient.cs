@@ -19,5 +19,6 @@ namespace CountEat.API.Models
         public float? Potassium { get; set; }
         public float? Sugar { get; set; }
         public float? Serving_Size { get; set; }
+        public List<RecipeIngredient> RecipeIngredients { get; set; } = new(); //add relation w recipes.cs
     }
 }

@@ -7,15 +7,15 @@ using AutoMapper;
 using CountEat.API.Services;
 
 
-namespace CountEat.API.Controllers;
+namespace CountEat.API.Controller;
 
 [ApiController]
 [Route("api/[controller]")]
-public class IngredientControllers : ControllerBase
+public class IngredientController : ControllerBase
 {
     private readonly IIngredientService _ingredientService;
 
-    public IngredientControllers(IIngredientService ingredientService)
+    public IngredientController(IIngredientService ingredientService)
     {
         _ingredientService = ingredientService;
     }
