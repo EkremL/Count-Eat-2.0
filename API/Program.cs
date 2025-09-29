@@ -31,6 +31,8 @@ using (var scope = app.Services.CreateScope())
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     await IngredientSeeder.SeedAsync(db);
     await RecipeSeeder.SeedAsync(db);
+    await RecipeIngredientSeeder.SeedRecipeIngredientsAsync(db);
+
 }
 
 // Configure the HTTP request pipeline.

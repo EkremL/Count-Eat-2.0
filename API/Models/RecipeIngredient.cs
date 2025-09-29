@@ -7,4 +7,9 @@ public class RecipeIngredient
 
     public int IngredientId { get; set; }
     public Ingredient Ingredient { get; set; } = null!;
+
+    public double? Quantity { get; set; }
+
+    public string? Unit { get; set; }
+
 }
