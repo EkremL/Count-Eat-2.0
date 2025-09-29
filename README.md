@@ -18,7 +18,7 @@ Now, I’m rebuilding it from scratch with **modern technologies**:
 - ✅ Ingredients API with DTOs and Service layer
 - ✅ EF Core + PostgreSQL integration
 - ✅ Clean architecture with AutoMapper and DI
-- ⬜ Recipes API (coming soon)
+- ✅ Recipes API (coming soon)
 - ⬜ Authentication (NextAuth/Clerk integration)
 - ⬜ Calorie tracker & charts
 - ⬜ Blog revamp with XP system (inspired by PixelBlog)
